@@ -8,7 +8,7 @@ output_base_dir = os.path.expanduser('../data/output')
 
 # Define valid ranges for columns
 valid_ranges = {
-    "scan": (4, 129),
+    "scan": (0, 129),
     "begin_time": (56605.38856481481, 58584.34300925926),
     "end_time": (56605.39115740741, 58584.345601851855),
     "spectral_window": 0,
